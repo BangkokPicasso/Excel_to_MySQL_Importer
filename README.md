@@ -30,6 +30,10 @@ This project provides a Python script to read data from an Excel file and insert
 ## Example
 In this script, the Excel file data.xlsx located on the desktop is read. The data from the sheets SPC and sales are inserted into the MySQL tables Schema1.settings_spc and Schema2.sales, respectively.
 
+## Related Repositories
+* [export_mysql_data_to_xlsx](https://github.com/BangkokPicasso/export_mysql_data_to_xlsx): Export MySQL Data to Excel
+* [df_to_mysql_table_statement_generator](https://github.com/BangkokPicasso/df_to_mysql_table_statement_generator): Converting a Pandas DataFrame into a MySQL CREATE TABLE statement
+  
 ## Prerequisites
 * Python 3.x
 * MySQL server
